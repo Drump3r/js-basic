@@ -1,15 +1,23 @@
+//Loops: For y For...of
 var estudiantes = ["Maria", "Pedro", "Daniel", "Kenny"];
 
-function saludarEstudiante(estudiante) {
+function saludarEstudiantes(estudiante) {
     console.log(`Hola, ${estudiante}`)
 }
 
 //Example #1
 for (var i = 0; i < estudiantes.length; i++) {
-    saludarEstudiante(estudiantes[i]);
+    saludarEstudiantes(estudiantes[i]);
 }
 
 //Example #2
 for (var estudiante of estudiantes) {
-    saludarEstudiante(estudiante);
+    saludarEstudiantes(estudiante);
+}
+
+
+//Loops: While
+while (estudiantes.length > 0) {
+    var estudiante = estudiantes.shift();
+    saludarEstudiantes(estudiante);
 }
