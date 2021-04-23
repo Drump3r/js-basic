@@ -1,1 +1,2 @@
-# js-basic
+# Practicas de Javascript
+conceptos basicos y practicas de Javascript
